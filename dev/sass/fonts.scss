@@ -1,7 +1,29 @@
 @font-face {
-    font-family: 'Gilroy-Regular';
-    src: url('./assets/fonts/Gilroy-Regular.woff') format('woff');
-    font-weight: normal; 
-    font-style: normal;
-    font-display: swap;
+    font-family: "montserrat";
+    src: url('../fonts/Montserrat-Thin.ttf') format('truetype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "monserrat";
+    src: url('../fonts/Montserrat-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "monserrat";
+    src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "monserrat";
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "monserrat";
+    src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
 }
