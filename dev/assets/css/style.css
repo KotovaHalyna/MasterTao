@@ -1,3 +1,18 @@
+@charset "UTF-8";
+/*
+Theme Name: CustomTheme
+Theme URI: https://wordpress.org/themes/CustomTheme/
+Author: the Rost team
+Author URI: http://rost.com.ua/
+Description: CustomTheme brings your site to life with immersive featured images and subtle animations. Our default theme works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: CustomTheme
+Tags: custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
 * {
   margin: 0;
   padding: 0;
@@ -16,11 +31,9 @@ ol li {
 }
 
 a {
-  color: #fff;
-  text-decoration: none;
-  
+  color: #E58D35;
+  text-decoration: underline;
 }
-
 
 ol {
   counter-reset: list;
@@ -99,6 +112,7 @@ ol li::before {
 .fw-400 {
   font-weight: 400;
 }
+
 .fw-500 {
   font-weight: 500;
 }
@@ -215,7 +229,6 @@ h6,
   margin-bottom: 10px;
 }
 
-
 .btn {
   font-weight: 500;
   color: #ffffff;
@@ -284,9 +297,8 @@ h6,
   height: 400px;
   margin-top: 10px;
   padding: 0px 12px 0px 0px;
-  scrollbar-color: #E58D35 ;
+  scrollbar-color: #E58D35;
 }
-
 
 @font-face {
   font-family: "montserrat";
@@ -320,3 +332,48 @@ h6,
 h1 {
   color: #fff;
 }
+
+@font-face {
+  font-family: "montserrat";
+  src: url("../fonts/Montserrat-Thin.ttf") format("truetype");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "monserrat";
+  src: url("../fonts/Montserrat-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "monserrat";
+  src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "monserrat";
+  src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "monserrat";
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 500;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.header-nav {
+  @e display: flex;
+}
+
+.header-nav-list {
+  margin: 0 auto;
+}
+
+h1 {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

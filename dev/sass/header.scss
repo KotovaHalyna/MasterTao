@@ -3,10 +3,28 @@
 }
 
 .header-nav {
-	@e
+	@extend .container;
 	display: flex;
+	padding-top: 25px;
+	padding-bottom: 39px;
+
+	.btn{
+		padding: 13px 21px;
+	}
+}
+
+.mobile-container {
+	width: 100%;
 }
 
 .header-nav-list {
 	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	gap: 45px;
+	padding: 4px 12px 0 12px;
+	a {
+		color: $text-color;
+		text-decoration: none;
+	}
 }

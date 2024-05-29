@@ -1,4 +1,12 @@
 @media screen and (max-width: 1024px) {
+    .mobile-container {
+        display: none;
+       
+        &.show {
+            display: flex;
+        }
+    }
+ 
 }
 
 

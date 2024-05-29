@@ -1,12 +1,12 @@
-$( document ).ready(function() {
-    console.log( "ready!" );
-    
-Fancybox.bind ("[data-fancybox]",
-    {
-})
-   $('.single-item').slick(); 
-});
+
+const burger = document.querySelector('#burger');
+
+const mobileContainer = document.querySelector('.mobile-container');
 
 
+function showBurgerMenu() {
+    mobileContainer.classListList.toggle('show')
+}
 
+burger.addEventListener('click', showBurgerMenu)
 
