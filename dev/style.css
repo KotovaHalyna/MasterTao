@@ -366,7 +366,7 @@ h1 {
 }
 
 .header-nav {
-  @e display: flex;
+  display: flex;
 }
 
 .header-nav-list {

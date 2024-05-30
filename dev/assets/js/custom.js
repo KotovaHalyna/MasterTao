@@ -1,10 +1,9 @@
 const burger = document.querySelector('#burger');
-const mobileContainer = document.querySelector('.mobile-container');
+const navigationSection = document.querySelector('.navigation-section');
 
-
-function showBurgerMenu() {
-    mobileContainer.classList.toggle('show')
+function showNavigation(){
+  navigationSection.classList.toggle('show');
 }
 
-burger.addEventListener('click', showBurgerMenu)
+burger.addEventListener('click', showNavigation);
 
