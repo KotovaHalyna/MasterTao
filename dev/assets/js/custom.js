@@ -6,4 +6,3 @@ function showNavigation(){
 }
 
 burger.addEventListener('click', showNavigation);
-
