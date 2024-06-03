@@ -1,17 +1,35 @@
 .banner {
-    width: 1298px;
-}
-.banner-title {
+    padding-bottom: 63px;
+    
+
+    &-title {
     font-size: 56px;
     line-height: 1.26;
-    margin-bottom: 8px;
-    max-width: 410px;
+    margin-bottom: 9px;
+    max-width: 440px;  
+    text-transform: uppercase;
 }
-
-.banner-description {
+     &-description {
     font-size: 20px;
     line-height: 1.35;
     margin-bottom: 37px;
     font-weight: 300;
     max-width: 320px;
 }
+}
+
+
+
+.slider-info {
+    @extend .container-xxl;
+    overflow: hidden;
+    
+    .swiper-slide {
+       display: flex;
+       align-items: center;
+       min-height: 700px;
+       background-size: cover;
+       border-radius: 20px;
+   }
+}
+
