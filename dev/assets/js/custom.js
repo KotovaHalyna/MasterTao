@@ -6,3 +6,18 @@ function showNavigation(){
 }
 
 burger.addEventListener('click', showNavigation);
+
+const swiper = new Swiper('.slider-info' , {
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextE1: '.swiper-button-next',
+    prevE1: '.swiper-button-prev',
+  },
+  autoplay: {
+    delay: 5000,
+  },
+});
