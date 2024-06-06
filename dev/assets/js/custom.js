@@ -8,17 +8,25 @@ function showNavigation(){
 burger.addEventListener('click', showNavigation);
 
 const swiper = new Swiper('.slider-info' , {
-  spaceBetween: 40,
+  spaceBetween: 12,
   loop: true,
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
   },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  //autoplay: {
-   // delay: 5000,
-  //},
+  
+   navigation:  {
+        enabled: false
+    },
+
+  breakpoints: { 
+    992: {
+      spaceBetween: 40,
+      navigation: {
+        enabled: true,
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+     }, 
+   }
+  }
 });

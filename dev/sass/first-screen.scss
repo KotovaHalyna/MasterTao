@@ -1,3 +1,8 @@
+header {
+    position: relative;
+}
+
+
 .slider-info {
     @extend .container-xxl;
     overflow: hidden;
@@ -12,13 +17,15 @@
        padding: 0 72px;
    }
 
+
 .swiper-pagination {
     bottom: 35px;
 }
 
+
+
 .arrow-container {
     width: 100%;
-    z-index: 1;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -50,7 +57,7 @@
 
 
 .banner {    
-    padding-bottom: 193px;
+    margin-bottom: 70px;
     
     .banner-title {
         font-size: 54px;
@@ -67,6 +74,7 @@
         margin-bottom: 37px;
         max-width: 320px;
 }
+
 }
 
 

@@ -11,16 +11,17 @@ body {
   color: #ffffff;
 }
 
+
 ul li,
 ol li {
   list-style: none;
 }
-
+ 
 a {
   color: #fff;
   text-decoration: none;
-  
 }
+
 
 
 ol {
@@ -38,9 +39,8 @@ ol li::before {
 
 .container {
   max-width: 1170px;
-  padding-right: $container-padding;
-  padding-left: $container-padding;
-  margin-top: 200px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   
@@ -211,7 +211,7 @@ h6,
 
 
 .btn {
-  font-weight: 600;
+  font-weight: 400;
   color: #ffffff;
   border-radius: 90px;
   line-height: 146%;
@@ -230,8 +230,8 @@ h6,
 }
 
 .btn-lg {
-  font-size: 18px;
-  padding: 16px 35px;
+    font-size: 16px;
+    padding: 19px 33px;
 }
 
 .btn-primary:hover,
