@@ -1,4 +1,20 @@
 @media screen and (max-width: 1024px) {
+    section {
+        &.accent { 
+          &:before {
+            content: "";
+            width: 100%;
+            border-radius: 20px;
+          }
+          
+        }
+      }
+
+
+
+
+
+
     .container-wrapper{
         max-height: 45px;
         margin-top: 18px;
