@@ -1,8 +1,10 @@
 const burger = document.querySelector('#burger');
+const body = document.querySelector('body');
 const navigationSection = document.querySelector('.navigation-section');
 
 function showNavigation(){
   navigationSection.classList.toggle('show');
+  body.classList.toggle('overflow-hidden');
 }
 
 burger.addEventListener('click', showNavigation);
@@ -14,7 +16,7 @@ const swiper = new Swiper('.slider-info' , {
     el: '.swiper-pagination',
     clickable: true,
   },
-  
+
    navigation:  {
         enabled: false
     },

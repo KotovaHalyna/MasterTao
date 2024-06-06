@@ -1,6 +1,10 @@
-header  {z-index: 10;}
-.navigation-section {z-index: 2;}
+header                                {z-index: 15;}
+body.overflow-hidden:before           {z-index: 14;}
+.navigation-section                   {z-index: 2;}
+.slider-info .arrow-container        { z-index: 1;}
 
+
+  
 
 @media screen and (max-width: 1024px) {
     .slider-info .swiper-slide:before {z-index: -1;}
