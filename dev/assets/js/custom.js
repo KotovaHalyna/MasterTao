@@ -32,3 +32,17 @@ const swiper = new Swiper('.slider-info' , {
    }
   }
 });
+
+const fileInput = document.querySelector('#calculation-file');
+const fileName = document.querySelector('#file-name');
+
+fileInput.addEventListener('change', function () {
+  console.log('change');
+  fileName.innerHTML = 'File'
+  console.log(fileInput.files[0]);
+  fileName.innerHTML = fileInput.files[0].name;
+});
+
+// $(document).ready(function(){
+
+// });
