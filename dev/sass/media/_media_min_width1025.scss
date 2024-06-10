@@ -1,8 +1,38 @@
 @media (min-width: 1025px) {
-   
-    #burger {
+   .template-title {
+      &.half-section {
+         &:after {
+           content: "";
+           display: none;
+      }
+
+       h2:after {
+        display: inline-block;
+       }
+    }
+
+#burger {
         display: none;
     }
+
+   }
+
+   
+  
+
+    
+
+
+
+
+  .template-title {
+    &.text-lg-start {
+        &:after{
+          left: 0; 
+          transform: none;
+        }
+      }
+  }  
 }
 
 

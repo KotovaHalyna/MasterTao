@@ -1,5 +1,6 @@
 header {
     position: relative;
+    padding-top: 27px;
     background-color: #282B38;
   }
 
@@ -28,10 +29,8 @@ header .container > a {
     align-items: center;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 8px;
     padding: 8px 12px 0px 13px;
     gap: 45px;
-
     a {
         text-decoration: none;
         color: #ffffff;

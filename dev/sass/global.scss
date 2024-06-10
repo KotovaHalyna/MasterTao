@@ -50,7 +50,7 @@ ol li::before {
   max-width: 1844px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 12px;
+  padding: 0 17px;
 }
 
 .col-md-4 {
@@ -249,19 +249,18 @@ section {
   &::after{
     content: "";
     position: absolute;
-    width: 100px;
+    width: 84px;
     height: 2px;
     background-color: $color-secondary;
     left: 50%;
-    bottom: 35px;
+    bottom: 47px;
     transform: translate(-50%, 0);
   }
 
   h2 {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 126%;
+    font-size: 34px;
     text-transform: uppercase;
+    margin-bottom: 6px;
   }
 
   h3 {
@@ -269,37 +268,29 @@ section {
     font-weight: 300;
   }
 
-  &.text-start {
-    &:after{
-      left: 0; 
-      transform: none;
-    }
-  }
-
   &.half-section {
     max-width: 600px;
     width: 100%;
     text-align: left;
-    &::after {
+    &:after {
       display: none;
     }
     h2:after {
-      content: "";
-      display: inline-block;
+      content: "";   
       width: 100px;
       height: 2px;
       background-color: $color-secondary;
       margin: 8px 20px;
     }
   }
-}
 
+}
 .btn {
-  font-weight: 400;
+  font-weight: 600;
   color: #ffffff;
   border-radius: 90px;
   line-height: 146%;
-  padding: 13px 18px;
+  padding: 21px 84px;
   border: 1px solid #E58D35;
   font-size: 15px;
 }
