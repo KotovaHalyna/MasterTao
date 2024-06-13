@@ -123,7 +123,6 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-weight: 700;
     line-height: 126%;
 }
 
@@ -242,7 +241,7 @@ section {
 
 .template-title {
   padding-bottom: 60px;
-  margin-bottom: 0;
+  margin-bottom: -27px;
   text-align: center;
   position: relative;
   
@@ -253,20 +252,30 @@ section {
     height: 2px;
     background-color: $color-secondary;
     left: 50%;
-    bottom: 47px;
+    bottom: 81px;
     transform: translate(-50%, 0);
   }
 
   h2 {
-    font-size: 34px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.25;
     text-transform: uppercase;
     margin-bottom: 6px;
+    padding-bottom: 47px;
   }
 
   h3 {
     font-size: 24px;
     font-weight: 300;
   }
+
+&.text-start {
+  &:after {
+    left: 0;
+    transform: none;
+  }
+}
 
   &.half-section {
     max-width: 620px;
@@ -276,15 +285,17 @@ section {
       display: none;
     }
     h2:after {
-      content: "";   
-      width: 100px;
+      content: "";
+      display: inline-block;
+      width: 85px;
       height: 2px;
-      background-color: $color-secondary;
-      margin: 8px 20px;
+      background-color: #89C249;
+      margin: 11px 19px;
     }
   }
-
 }
+
+
 .btn {
   font-weight: 600;
   color: #ffffff;

@@ -1,4 +1,8 @@
 @media (min-width: 1025px) {
+     #burger {
+        display: none;
+    }
+
    .template-title {
       &.half-section {
          &:after {
@@ -11,9 +15,7 @@
        }
     }
 
-#burger {
-        display: none;
-    }
+     
 
    }
 
