@@ -1,11 +1,18 @@
+.calculation {
+    .container {
+        position: relative;
+    }
+}
+
+
+
 .calculation-form {
     max-width: 626px;
     padding: 50px 50px 61px;
     background-color: $bg-secondary;
     border-radius: 20px;
-    box-shadow: 5px 15px 40px 0 rgba(9, 23, 99, 0.322);
+    box-shadow: 5px 17px 40px 0 rgba(9, 23, 99, 0.322);
 }
-
 
 .form-row {
     display: flex;
@@ -41,4 +48,12 @@
         color: $color-secondary;
         border: 2px dashed $color-secondary;
     }
+}
+
+.calculation-decoration {
+    position: absolute;
+    bottom: -100px;
+    left: 626px;
+    max-width: 29.167vw;
+    max-height: 888px;
 }

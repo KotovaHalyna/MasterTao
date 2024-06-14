@@ -120,7 +120,7 @@
         }
         &:after {
           content: "";
-          bottom: 81px;
+          bottom: 8px;
       }
 
     &.half-section {
@@ -128,7 +128,16 @@
       text-align: center;
     }
   }
+
+  .calculation-form {
+    margin: 0 auto;
+  }
+
+  .calculation-decoration {
+    display: none;
+  }
 }
+
 
 
 

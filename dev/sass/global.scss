@@ -209,8 +209,8 @@ h6,
 }
 
 section {
-  padding: 90px 0 100px;
-  margin-bottom: $section-margin-lg;
+  padding: 25px 0 100px;
+  //margin-bottom: $section-margin-lg;
   &.accent {
     position: relative;
     &:before {
@@ -240,35 +240,35 @@ section {
 
 
 .template-title {
-  padding-bottom: 60px;
-  margin-bottom: -27px;
+  padding-bottom: 21px;
+  margin-bottom: 31px;
   text-align: center;
   position: relative;
-  
   &::after{
-    content: "";
-    position: absolute;
-    width: 84px;
-    height: 2px;
-    background-color: $color-secondary;
-    left: 50%;
-    bottom: 81px;
-    transform: translate(-50%, 0);
-  }
-
+      content: "";
+      position: absolute;
+      width: 84px;
+      height: 2px;
+      background-color: $color-secondary;
+      left: 50%;
+      bottom: 0px;
+      transform: translate(-50%, 0);
+    }
   h2 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.25;
     text-transform: uppercase;
     margin-bottom: 6px;
-    padding-bottom: 47px;
+      
   }
 
   h3 {
     font-size: 24px;
     font-weight: 300;
+    color: rgb(167, 162, 162) ;
   }
+
 
 &.text-start {
   &:after {
@@ -317,7 +317,7 @@ section {
 
 .btn-lg {
     font-size: 16px;
-    padding: 19px 33px;
+    padding: 19px 33px;   
 }
 
 .btn-primary:hover,
@@ -423,7 +423,10 @@ body.overflow-hidden {
 }
 }
 
-
+.swiper-initialized {
+  overflow: hidden;
+  position: relative;
+}
 
 
 

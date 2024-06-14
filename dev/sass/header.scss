@@ -37,7 +37,9 @@ header .container > a {
         font-size: 16px;
         line-height: 146%;
         position: relative;
-        
+        &:hover {
+            color: $color-primary;
+        }   
     }
 
 
