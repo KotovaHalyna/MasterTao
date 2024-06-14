@@ -100,7 +100,7 @@ fileInput.addEventListener('change', function () {
 
 const swiperTemplate = new Swiper('.swiper-template', {
   speed: 400, 
-  spaceBetween: 100,
+  loop: true,
   slidesPerView: 1,
   pagination: {
     el: '.swiper-pagination',
@@ -114,11 +114,14 @@ const swiperTemplate = new Swiper('.swiper-template', {
   breakpoints: { 
     1025: {
       slidesPerView: 3,
-      spaceBetween: 40,
+      spaceBetween: 20,
       navigation: {
         enabled: true,
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
+     },
+     pagination: {
+      enabled: false,
      }, 
    }
   }

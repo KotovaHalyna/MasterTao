@@ -1,11 +1,125 @@
-.template-card {
-    width: 100%;
-    border-radius: 20px;
-    background-color: #363A4D;
-    padding: 0 20px 27px;
+.swiper-template {
+    --padding: 90px;
+    padding: 0 var(--padding);
+    margin: 0 calc(-15px -var(--padding));
+
+      .swiper-template-nav {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        max-width: 1323px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        z-index: 3;
+      }
+
+      .swiper-button-next, 
+      .swiper-button-prev {
+     position: static;
+   }
+
+   &:before, &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    width: var(--padding);
+    height: 100%;
+    background: #282b38;
+    z-index: 2;
+   }
+  &:after {
+    left: calc(100% - var(--padding));
+  }
+
 }
+
+.swiper-slide {
+    padding: 5px;
+}
+
+
+.template-card {
+    border-radius: 20px;
+    background-color: $bg-secondary;
+    padding: 0 20px 27px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 5px 8px #282b38;
+}
+
+
+.img-box {
+    margin: 0 -20px 27px;
+}
+
+.card-img {
+    border-radius: 0;
+    height: 229px;
+    object-fit: contain;
+}
+
+.card-title {
+    margin-bottom: 12px;
+}
+
+.card-options {
+    margin-bottom: 18px;
+}
+
+.options {
+    &-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 13px;
+    }
+}
+
+.option-item {
+    img {
+        margin-right: 10px;
+        max-width: 24px;
+    }
+}
+
+.card-price {
+    color: #fff;
+    span {
+        font-size: 24px;
+        line-height: 125%;
+        
+        &:first-child {
+           color: #a3a3a3; 
+        }
+    }
+    strong {
+        font-weight: 700;
+        font-size: 45px;
+        
+    }
+}
+
 .btn-row {
     display: flex;
+    gap: 14px;
+    .btn {
+        width: 153px;
+        justify-content: center;
+        padding: 13px 8px;
+    }
 }
 
 
+        .swiper-button-next, 
+        .swiper-button-prev {
+        color: #fff;
+        width: 72px;
+        height: 48px;
+        &:hover {
+        color: $color-secondary ;
+     }
+  }
