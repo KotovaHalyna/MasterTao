@@ -136,6 +136,14 @@
   .calculation-decoration {
     display: none;
   }
+
+  .swiper-template {
+    padding-bottom: 0 0 10px;
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets {
+    bottom: 20px;
+  }
 }
 
 

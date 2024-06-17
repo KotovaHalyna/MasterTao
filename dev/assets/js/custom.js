@@ -113,6 +113,17 @@ const swiperTemplate = new Swiper('.swiper-template', {
 
   breakpoints: { 
     1025: {
+    slidesPerView: 2,
+    navigation: {
+      enabled: true,
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+   },
+   pagination: {
+    enabled: false,
+   }, 
+ },
+   1400: {
       slidesPerView: 3,
       // spaceBetween: 10,
       navigation: {
@@ -123,8 +134,10 @@ const swiperTemplate = new Swiper('.swiper-template', {
      pagination: {
       enabled: false,
      }, 
-   }
-  }
+   },
+   
+}
+
 });
 
 
