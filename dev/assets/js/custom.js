@@ -114,7 +114,7 @@ const swiperTemplate = new Swiper('.swiper-template', {
   breakpoints: { 
     1025: {
       slidesPerView: 3,
-      spaceBetween: 20,
+      // spaceBetween: 10,
       navigation: {
         enabled: true,
         nextEl: '.swiper-button-next',

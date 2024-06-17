@@ -209,8 +209,8 @@ h6,
 }
 
 section {
-  padding: 25px 0 100px;
-  //margin-bottom: $section-margin-lg;
+  padding: 90px 0 100px;
+  margin-bottom: $section-margin-lg;
   &.accent {
     position: relative;
     &:before {
@@ -318,8 +318,8 @@ section {
 .btn-lg {
     font-size: 16px;
     padding: 19px 33px;
-    padding-top: 8px;
-    padding-bottom: 11px;
+    padding-top: 19px;
+    padding-bottom: 19px;
 }
 
 .btn-primary:hover,
