@@ -138,11 +138,17 @@
   }
 
   .swiper-template {
-    padding-bottom: 0 0 10px;
+    padding: 0 0 25px;
+    margin: -15px -20px 0;
+
+    .swiper-slide {
+      padding: 15px;
+      //margin: 0 -15px;
+    }
   }
 
   .swiper-horizontal>.swiper-pagination-bullets {
-    bottom: 20px;
+    bottom: 0;
   }
 }
 

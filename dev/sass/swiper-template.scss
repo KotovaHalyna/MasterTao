@@ -36,7 +36,7 @@
   }
 
   .swiper-slide {
-    padding: 15px 0px;
+    padding: 10px;
   }
 }
 
@@ -50,11 +50,11 @@
     box-shadow: 0px 0px 15px 0 rgb(6 9 27 / 45%);
     max-width: 360px;
     margin: 0 auto;
-}
-
-
-.img-box {
+    height: 482px;
+    .img-box {
     margin: 0 -20px 27px;
+  }
+
 }
 
 .card-img {
@@ -126,7 +126,14 @@
      }  
   }
   
-  .swiper-template .swiper-slide .btn {
-        padding-left: 0px;
-        padding-right: 0px;
-     }
+  .swiper-template {
+    .swiper-slide .btn {
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    .swiper-wrapper {
+        align-items: center;
+    }
+  }
+  

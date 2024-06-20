@@ -6,6 +6,16 @@
     .swiper-template {
         margin: -15px auto 0;
         max-width: 960px;
+        --padding: 0;
+
+        .swiper-wrapper {
+            align-items: center;
+        }
+
+        .swiper-slide {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
     }
     
     .swiper-template .swiper-template-nav {
