@@ -44,13 +44,16 @@ fileInput.addEventListener('change', function () {
   fileName.innerHTML = fileInput.files[0].name;
 });
 
-let swiperAdvantages 
+const advantagesCount = document.querySelectorAll('.slider-advantages .swiper-slide').length
 
-function initAdvantages () {
- swiperAdvantages = new Swiper('.slider-advantages' , {
+console.log(advantagesCount);
+
+
+const swiperAdvantages = new Swiper('.slider-advantages' , {
   spaceBetween: 12,
   loop: true,
-
+  simulateTouch: true,
+  slidesPerView: 1,
   pagination: {
      el: '.swiper-pagination',
      clickable: true,
@@ -58,19 +61,20 @@ function initAdvantages () {
    },
    breakpoints: { 
     1025: {
-      spaceBetween: 40,
-      navigation: {
-        enabled: true,
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-     },
+      spaceBetween: 0,
+      initialSlide: 0,
+      loop: false,
+      slidesPerGroup: 15,
+      simulateTouch: false,
+      
      pagination: {
       enabled: false,
+      el: '.swiper-pagination'
     }, 
    }
   }
 });
-}
+
 
 
 const swiperTemplate = new Swiper('.swiper-template', {
@@ -81,6 +85,7 @@ const swiperTemplate = new Swiper('.swiper-template', {
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
+    enabled: true,
   },
 
    navigation:  {

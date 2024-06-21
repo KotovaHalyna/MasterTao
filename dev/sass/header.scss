@@ -4,6 +4,13 @@ header {
     background-color: #282B38;
   }
 
+  .logo {
+    .img {
+      max-width: 172px;
+      height: 49px;  
+    }
+  }
+
 header .container {
     display: flex;
     position: relative;

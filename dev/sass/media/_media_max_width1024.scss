@@ -147,9 +147,23 @@
     }
   }
 
-  .swiper-horizontal>.swiper-pagination-bullets {
-    bottom: 0;
+  .slider-info {
+    .swiper-horizontal {
+       >.swiper-pagination-bullets {
+        bottom: 43px;
+    }
   }
+}
+  .swiper-horizontal {
+      > .swiper-pagination-bullets {
+        bottom: 0;
+    }
+  } 
+
+  .swiper-template:before,
+  .swiper-template:after {
+    display: none;
+  } 
 }
 
 
