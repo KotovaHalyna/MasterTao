@@ -39,7 +39,7 @@ ol li::before {
 
 .container {
   max-width: 1170px;
-  padding-right: 15px;
+  padding-right: 40px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
@@ -435,3 +435,20 @@ body.overflow-hidden {
   gap: 26px;
 }
 
+.services.accent.cursor {
+  .swiper-button-next, 
+  .swiper-button-prev {
+    color: #fff;
+    width: 226px;
+    height: 48px;
+    &:hover {
+    color: $color-secondary ;
+  }  
+ }
+}
+
+.about-row {
+  display: flex;
+  gap: 35px;
+  font-weight: 400;
+}

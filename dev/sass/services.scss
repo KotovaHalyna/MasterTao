@@ -36,3 +36,17 @@
     margin-bottom: 14px;
   }
 }
+
+.services.accent.cursor {
+  
+  .swiper-button-next, 
+  .swiper-button-prev {
+    max-width: 960px;
+    color: #fff;
+    width: 566px;
+    height: 48px;
+    &:hover {
+    color: $color-secondary ;
+   }  
+ }
+}
