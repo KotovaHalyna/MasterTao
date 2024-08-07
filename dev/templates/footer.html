@@ -1,33 +1,94 @@
-<footer>
-	Footer
+<footer class="footer-page">
+    <div class="container-page-lg">
+        <div class="contact-container">
+            <div class="footer-column">
+                <a href="index.html">
+                <img class="logo img-fluid" src="assets/img/logo-first.svg" alt="logo">
+            </a>
+                <ul>
+                    <li><a class="phone" href="tel:+(351)600-95-67">(351)600-95-67</a></li>
+                    <li><a href="mailto: info@cargoasia.info">info@cargoasia.info</a></li>
+                    <li>Адрес в Китае:</li>
+                    <li>浙江省金华市义乌市后宅街道洪华小区6</li>
+                    <li>栋一单元一楼RT789库房 高建军 电话</li>
+                    <li>45666667589</li>
+                </ul>
+                <div class="icon-footer">
+                    <a class="icon_item">
+                    <img src="assets/img/footer_instagram.svg" alt="instagram">
+                </a>
+                    <a class="icon-item">
+                    <img src="assets/img/footer_vkontakte.svg" alt="vkontakte">
+                </a>
+                    <a class="icon-item">
+                    <img src="assets/img/footer_telegram.svg" alt="telegram">
+                </a>
+                </div>
+            </div>
+        </div>
+        <div id="footer-nav" class="navigation-container">
+            <div class="footer-column">
+                <h5>Грузоперевозки</h5>
+                <ul>
+                    <li><a href="#calculation">Ціни та терміни</a></li>
+                    <li><a href="#services">Послуги</a></li>
+                    <li><a href="#about">Про компанію</a></li>
+                    <li><a href="#contact">Контакти</a></li>
+                    <li><a href="#calculation">Оформити вантаж</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h5>Послуги</h5>
+                <ul>
+                    <li><a href="#products">Викуп товару</a></li>
+                    <li><a href="#insurance">Страхування вантажу</a></li>
+                    <li><a href="#rent">Оренда складу</a></li>
+                    <li><a href="#money_transfer">Переказ грошей</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h5>Інформація</h5>
+                <ul>
+                    <li><a href="#">Відгуки</a></li>
+                    <li><a href="#">Вимоги до вантажу</a></li>
+                    <li><a href="#">Договір-оферта</a></li>
+                    <li><a href="#">Як укласти договір</a></li>
+                    <li><a href="#">Способи оплати послуг</a></li>
+                    <li><a href="#">Документи</a></li>
+                    <li><a href="#">Статті</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </footer>
 <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/fancybox.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script>
-    var forEach = function(t, o, r) {
-        if ("[object Object]" === Object.prototype.toString.call(t))
-            for (var c in t) Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t);
-        else
-            for (var e = 0, l = t.length; l > e; e++) o.call(r, t[e], e, t)
-    };
-    var hamburgers = document.querySelectorAll(".hamburger");
-    if (hamburgers.length > 0) {
-        forEach(hamburgers, function(hamburger) {
-            hamburger.addEventListener("click", function() {
-                this.classList.toggle("is-active");
-            }, false);
-        });
-    }
-    </script>
-    <script>
-    Fancybox.bind("[data-fancybox]", {});
-    </script>
-    <script>
-    $('.single-item').slick();
-    </script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/fancybox.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<script>
+var forEach = function(t, o, r) {
+    if ("[object Object]" === Object.prototype.toString.call(t))
+        for (var c in t) Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t);
+    else
+        for (var e = 0, l = t.length; l > e; e++) o.call(r, t[e], e, t)
+};
+var hamburgers = document.querySelectorAll(".hamburger");
+if (hamburgers.length > 0) {
+    forEach(hamburgers, function(hamburger) {
+        hamburger.addEventListener("click", function() {
+            this.classList.toggle("is-active");
+        }, false);
+    });
+}
+</script>
+<script>
+Fancybox.bind("[data-fancybox]", {});
+</script>
+<script>
+$('.single-item').slick();
+</script>
 </body>
+
 </html>

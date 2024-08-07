@@ -38,12 +38,16 @@ ol li::before {
 }
 
 .container {
-  max-width: 1170px;
-  padding-right: 40px;
+  max-width: 1250px;
+  padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   
+}
+
+.footer-page {
+  padding: 90px 0 100px;
 }
 
 .container-xxl {
@@ -209,7 +213,7 @@ h6,
 }
 
 section {
-  padding: 90px 0 100px;
+  padding: 32px 0 100px;
   // margin-bottom: $section-margin-lg;
   &.accent {
     position: relative;
@@ -230,6 +234,7 @@ section {
 
   &:nth-child(odd) {
     .template-title,
+    .template-title-start,
     .template-title h2 {
       &:after {
         background-color: orange;
@@ -238,7 +243,7 @@ section {
   }
 }
 
-
+.template-title-start,
 .template-title {
   padding-bottom: 21px;
   margin-bottom: 31px;
@@ -301,9 +306,9 @@ section {
   color: #ffffff;
   border-radius: 90px;
   line-height: 146%;
-  padding: 21px 84px;
+  padding: 13px 21px;
   border: 1px solid #E58D35;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .btn-primary {
@@ -399,14 +404,16 @@ body.overflow-hidden {
   margin-bottom: 6px;
 }
 
-.input-box input {
+.input-box input{
   border-radius: 10px;
-  padding: 17px 20px;
-  font-size: 14px;
-  min-height: 56px;
+  background-color: #ffffff;
   border: none;
-  transition: 0.2s;
+  margin: 10px;
   width: 100%;
+  min-height: 56px;
+  padding: 0 20px;
+  transition: 0.2s;
+  color: #282B38;
 
   &:focus-visible {
     outline: none;
@@ -435,20 +442,28 @@ body.overflow-hidden {
   gap: 26px;
 }
 
-.services.accent.cursor {
-  .swiper-button-next, 
-  .swiper-button-prev {
-    color: #fff;
-    width: 226px;
-    height: 48px;
-    &:hover {
-    color: $color-secondary ;
-  }  
- }
+.template-title:after {
+  content: "";
+  position: absolute;
+  width: 85px;
+  height: 2px;
+  background-color: #89C249;
+
 }
 
-.about-row {
-  display: flex;
-  gap: 35px;
-  font-weight: 400;
+
+.template-title-start {
+  padding-bottom: 21px;
+  margin-bottom: 31px;
+  text-align: start;
+  position: relative;
+}
+
+
+.template-title-start:after {
+  content: "";
+  position: absolute;
+  width: 85px;
+  height: 2px;
+  left: 8%; 
 }

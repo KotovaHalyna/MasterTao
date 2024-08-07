@@ -1,27 +1,24 @@
 .first-screen {
-    padding-top: 33px;
+    padding-top: 31px;
     padding-bottom: 90px;
+}
+
+
+.swiper-pagination {
+    bottom: 0px;
 }
 
 .slider-info {
     @extend .container-xxl;
-   
 
 .swiper-slide {
        display: flex;
        align-items: center;
        min-height: 700px;
        background-size: cover;
-       border-radius: 22px;
+       border-radius: 20px;
        padding: 0 72px 90px;
    }
-
-
-.swiper-pagination {
-    bottom: 35px;
-}
-
-
 
 .arrow-container {
     width: 100%;
@@ -30,6 +27,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
     max-width: 1570px;
+     z-index: 2;
 }
 
 .swiper-button-next, 
@@ -38,9 +36,10 @@
     width: 72px;
     height: 48px;
     &:hover {
-        color: $color-secondary ;
+        color: $color-secondary;
     }
   }
+
 }
 
 .swiper-pagination-bullet {
@@ -53,7 +52,10 @@
 }
 
 
-.banner {
+.banner {    
+    margin-bottom: 70px;
+    padding-bottom: 67px;
+    
     .banner-title {
         font-size: 54px;
         font-weight: 700;
@@ -71,6 +73,7 @@
 }
 
 }
+
 
 
 

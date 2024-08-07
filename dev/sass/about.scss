@@ -1,0 +1,32 @@
+.about-page {
+    & .container {
+        display: flex;
+        gap: 32px;
+        justify-content: space-between;
+        & .content-page {
+            width: 50%;
+            & .content-container {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding-top: 28px;
+                & p {
+                    font-size: 20px;
+                    line-height: 170%;
+                    font-weight: 300;
+                    margin: 0px;
+                }
+            }
+        }
+        &.img-box {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                object-fit: cover;
+                height: 100%;
+            }
+        }
+    }    
+}

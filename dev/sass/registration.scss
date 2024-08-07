@@ -1,0 +1,51 @@
+.registration-page {
+    & .container {
+        max-width: 1200px;
+    }
+}
+
+.registration-content {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    & .registration-row {
+        display: flex;
+        align-items: center;
+        gap: 52px;
+        & .box-content {
+            width: 50%;
+            & ul {
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 160%;
+                & li {
+                    margin-bottom: 26px;
+                }
+                .custom-li {
+                    display: flex;
+                    width: 50%;
+                    margin-bottom: 0px;
+                }
+            }
+            & .btn-box {
+                text-align: center;
+            }
+        }
+        & .img-box {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            border-radius: 20px;
+            position: relative;
+            height: 400px;
+        
+            & img {
+               object-fit: contain;
+            }
+        }
+        & .btn-margin {
+            margin-bottom: 50px;
+        }
+    }
+}

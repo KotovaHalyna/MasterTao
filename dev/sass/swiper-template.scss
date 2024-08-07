@@ -6,13 +6,14 @@
       .swiper-template-nav {
         position: absolute;
         top: 50%;
-        left: 14px;
+        left: 50%;
         height: 0;
         max-width: 1323px;
         width: 100%;
         display: flex;
         justify-content: space-between;
         z-index: 3;
+        transform: translate(-50%, -50%);
       }
 
       .swiper-button-next, 
@@ -36,7 +37,7 @@
   }
 
   .swiper-slide {
-    padding: 10px;
+    padding: 15px;
   }
 }
 
@@ -51,11 +52,12 @@
     max-width: 360px;
     margin: 0 auto;
     height: 482px;
-    .img-box {
+    
+}
+
+.img-box {
     margin: 0 -20px 27px;
   }
-
-}
 
 .card-img {
     border-radius: 0;
@@ -116,36 +118,24 @@
 }
 
 
-.swiper-button-next, 
-.swiper-button-prev {
-color: #fff;
-width: 72px;
-height: 48px;
-&:hover {
-color: $color-secondary ;
-}  
-}
-
+        .swiper-button-next, 
+        .swiper-button-prev {
+        color: #fff;
+        width: 72px;
+        height: 48px;
+        &:hover {
+        color: $color-secondary ;
+     }  
+  }
+  
   .swiper-template {
-  .swiper-slide .btn {
+    .swiper-slide .btn {
         padding-left: 1px;
         padding-right: 1px;
-    
     }
 
     .swiper-wrapper {
         align-items: center;
     }
-    
-}
-   .services.accent.cursor {
-      .swiper-button-next, 
-      .swiper-button-prev {
-        color: #fff;
-        width: 226px;
-        height: 48px;
-        &:hover {
-        color: $color-secondary ;
-    }  
   }
-}
+  

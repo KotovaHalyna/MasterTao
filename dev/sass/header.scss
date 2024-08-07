@@ -1,8 +1,13 @@
 header {
     position: relative;
-    padding-top: 27px;
-    background-color: #282B38;
-  }
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 26px;
+    position: relative;
+     background-color: #282B38;
+}
+    
 
   .logo {
     .img {
@@ -16,7 +21,7 @@ header .container {
     position: relative;
      
     .navigation-btn {
-        padding: 12px 17px;
+        padding: 18px 21px;
     }
 }
 
@@ -41,7 +46,7 @@ header .container > a {
     a {
         text-decoration: none;
         color: #ffffff;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 146%;
         position: relative;
         &:hover {
@@ -61,10 +66,7 @@ header .container > a {
         background-color: #cf4c2b;
     }
 
-  
 }
-
-
 
 .hamburger {
     padding: 0;
