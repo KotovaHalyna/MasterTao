@@ -3,17 +3,22 @@
         max-width: 1200px;
     }
 }
-
+.registration-btn {
+    margin-left: 35px;
+}
 .registration-content {
     display: flex;
     flex-direction: column;
     gap: 75px;
+   
     & .registration-row {
         display: flex;
         align-items: center;
         gap: 52px;
+         
         & .box-content {
             width: 50%;
+            
             & ul {
                 font-weight: 300;
                 font-size: 18px;
@@ -47,5 +52,7 @@
         & .btn-margin {
             margin-bottom: 50px;
         }
+        
     }
 }
+
